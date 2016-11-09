@@ -1,0 +1,2 @@
+This is a pared-down set of felix tools from CERN, as used at PNNL. Also included are various bit files from CERN, but not their corresponding vhdl.
+Hop to flxcard/build, and say cmake ..; make.
