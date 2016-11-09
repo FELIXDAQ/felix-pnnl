@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC  -Wall   -shared -Wl,-soname,libregmap2.so -o libregmap2.so CMakeFiles/regmap2.dir/src/regmap-symbol.c.o 

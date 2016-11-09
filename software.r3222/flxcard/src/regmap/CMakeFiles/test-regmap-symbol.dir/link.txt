@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall    CMakeFiles/test-regmap-symbol.dir/test/test-regmap-symbol.c.o  -o test-regmap-symbol -rdynamic libregmap.a 

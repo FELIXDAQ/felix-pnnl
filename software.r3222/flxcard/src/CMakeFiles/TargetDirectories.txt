@@ -1,0 +1,17 @@
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/FlxCard.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/FlxCard_scope.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-config.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-dma-stat.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-dma-test.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-dump-blocks.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-eeprom.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-i2c.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-info.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-init.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-irq-test.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-reset.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-spi.dir
+/home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-throughput.dir
+/home/echurch/felix/software.r3222/flxcard/src/regmap/CMakeFiles/regmap.dir
+/home/echurch/felix/software.r3222/flxcard/src/regmap/CMakeFiles/test-regmap-struct.dir
+/home/echurch/felix/software.r3222/flxcard/src/regmap/CMakeFiles/test-regmap-symbol.dir

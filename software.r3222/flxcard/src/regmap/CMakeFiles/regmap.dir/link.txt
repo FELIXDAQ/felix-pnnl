@@ -1,0 +1,2 @@
+/usr/bin/ar cr libregmap.a  CMakeFiles/regmap.dir/src/regmap-symbol.c.o
+/usr/bin/ranlib libregmap.a

@@ -1,0 +1,61 @@
+#!/bin/sh
+
+# script derived from drivers_tdaq script by Markus Joos, CERN
+# Edited by EC to only load the local flx driver. 
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+export DRIVER_PATH=${DIR}/..
+KERNEL_VERSION=$(uname -r)
+
+export CMEM_PARAMS="gfpbpa_size=4096 gfpbpa_quantum=4"
+
+# See how we were called.
+case "$1" in
+  start)
+
+        export FELIXCARDS=`/sbin/lspci -n | grep -c -e "10ee:7038"`
+        echo $FELIXCARDS flx cards found
+        if [ $FELIXCARDS -gt 0 ]; then
+          echo "Starting flx driver "
+          # load the module
+          /sbin/insmod -f $DRIVER_PATH/drivers/flx.ko
+          # remove old device node
+          rm -f /dev/flx
+          # get major number
+          major=`awk "\\$2==\"flx\" {print \\$1}" /proc/devices`
+          echo major number for flx is $major
+          # make device node
+          mknod /dev/flx c $major 0
+          # give permissions
+          chmod 666 /dev/flx
+          echo
+        fi
+        ;;
+
+  stop)
+        /sbin/lsmod | grep flx
+        if [ $? = 0 ]; then
+          echo "Shutting down flx driver "
+          /sbin/rmmod flx
+        fi
+        ;;
+
+   status)
+        /sbin/lsmod | grep flx
+        if [ $? = 0 ]; then
+          echo ""
+          echo ">>>>>> Status of the flx driver "
+          echo ""
+          more /proc/flx
+        fi
+        ;;
+
+  *)
+        echo "*** Usage: drivers_flx-only_local {start|stop|status}"
+        exit 1
+
+esac
+
+exit 
+0

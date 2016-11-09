@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall    CMakeFiles/test-regmap-struct.dir/test/test-regmap-struct.c.o  -o test-regmap-struct -rdynamic libregmap.a 

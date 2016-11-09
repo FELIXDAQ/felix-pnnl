@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/echurch/felix/software.r3222/regmap/./regmap/regmap-common.h
+
+/home/echurch/felix/software.r3222/regmap/./regmap/regmap-struct.h
+sys/types.h
+-
+regmap/regmap-common.h
+/home/echurch/felix/software.r3222/regmap/./regmap/regmap/regmap-common.h
+
+/home/echurch/felix/software.r3222/regmap/test/test-regmap-struct.c
+stdio.h
+-
+regmap/regmap-struct.h
+/home/echurch/felix/software.r3222/regmap/test/regmap/regmap-struct.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -DDEBUG_LEVEL=1 --pedantic -Wall -g   -shared -Wl,-soname,libFlxCard.so -o libFlxCard.so CMakeFiles/FlxCard.dir/src/FlxCard.cpp.o CMakeFiles/FlxCard.dir/src/FlxException.cpp.o  -L/afs/cern.ch/atlas/project/tdaq/inst/tdaq/tdaq-06-01-01/installed/x86_64-slc6-gcc49-opt/lib  -L/home/echurch/felix/software.r3222/flxcard/../drivers_rcc/lib64 

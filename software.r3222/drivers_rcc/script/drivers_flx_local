@@ -1,0 +1,110 @@
+#!/bin/sh
+
+# script derived from drivers_tdaq script by Markus Joos, CERN
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+export DRIVER_PATH=${DIR}/..
+KERNEL_VERSION=$(uname -r)
+
+# Markus has 4096 below (4.096 GB) not 2048, but that crashed sbnd-daq10, whereas 2048 worked.
+export CMEM_PARAMS="gfpbpa_size=2048 gfpbpa_quantum=4"
+
+# See how we were called.
+case "$1" in
+  start)
+        echo "Starting cmem_rcc driver "
+        # load the module
+        /sbin/insmod -f $DRIVER_PATH/drivers/cmem_rcc-3.10.0-327.13.1.el7.x86_64.ko $CMEM_PARAMS
+        # remove old device node
+        rm -f /dev/cmem_rcc
+        # get major number
+        major=`awk "\\$2==\"cmem_rcc\" {print \\$1}" /proc/devices`
+        echo major number for cmem_rcc is $major
+        # make device node
+        mknod /dev/cmem_rcc c $major 0
+        #give permissions
+        chmod 666 /dev/cmem_rcc
+        echo
+
+        echo "Starting io_rcc driver "
+        # load the module
+        /sbin/insmod -f $DRIVER_PATH/drivers/io_rcc-3.10.0-327.13.1.el7.x86_64.ko
+        # remove old device node
+        rm -f /dev/io_rcc
+        # get major number
+        major=`awk "\\$2==\"io_rcc\" {print \\$1}" /proc/devices`
+        echo major number for io_rcc is $major
+        # make device node
+        mknod /dev/io_rcc c $major 0
+        # give permissions
+        chmod 666 /dev/io_rcc
+        echo
+
+        export FELIXCARDS=`/sbin/lspci -n | grep -c -e "10ee:7038"`
+        echo $FELIXCARDS flx cards found
+        if [ $FELIXCARDS -gt 0 ]; then
+          echo "Starting flx driver "
+          # load the module
+          /sbin/insmod -f $DRIVER_PATH/drivers/flx.ko
+          # remove old device node
+          rm -f /dev/flx
+          # get major number
+          major=`awk "\\$2==\"flx\" {print \\$1}" /proc/devices`
+          echo major number for flx is $major
+          # make device node
+          mknod /dev/flx c $major 0
+          # give permissions
+          chmod 666 /dev/flx
+          echo
+        fi
+        ;;
+
+  stop)
+        echo "Shutting down cmem_rcc driver "
+        /sbin/rmmod cmem_rcc
+
+        echo "Shutting down io_rcc driver "
+        /sbin/rmmod io_rcc
+
+        /sbin/lsmod | grep flx
+        if [ $? = 0 ]; then
+          echo "Shutting down flx driver "
+          /sbin/rmmod flx
+        fi
+        ;;
+
+   status)
+        /sbin/lsmod | grep cmem_rcc
+        if [ $? = 0 ]; then
+          echo ""
+          echo ">>>>>> Status of the cmem_rcc driver"
+          echo ""
+          more /proc/cmem_rcc
+        fi
+
+        /sbin/lsmod | grep io_rcc
+        if [ $? = 0 ]; then
+          echo ""
+          echo ">>>>>> Status of the io_rcc driver"
+          echo ""
+          more /proc/io_rcc
+        fi
+
+        /sbin/lsmod | grep flx
+        if [ $? = 0 ]; then
+          echo ""
+          echo ">>>>>> Status of the flx driver "
+          echo ""
+          more /proc/flx
+        fi
+        ;;
+
+  *)
+        echo "*** Usage: drivers_felix {start|stop|status}"
+        exit 1
+
+esac
+
+exit 
+0
