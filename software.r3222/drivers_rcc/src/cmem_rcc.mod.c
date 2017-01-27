@@ -26,14 +26,14 @@ __attribute__((section("__versions"))) = {
 	{ 0xa16aae11, __VMLINUX_SYMBOL_STR(remove_proc_entry) },
 	{ 0x5f675a65, __VMLINUX_SYMBOL_STR(cdev_add) },
 	{ 0x798d5ca6, __VMLINUX_SYMBOL_STR(cdev_alloc) },
+	{ 0x8c34c149, __VMLINUX_SYMBOL_STR(proc_create_data) },
 	{ 0xa202a8e5, __VMLINUX_SYMBOL_STR(kmalloc_order_trace) },
 	{ 0x29537c9e, __VMLINUX_SYMBOL_STR(alloc_chrdev_region) },
 	{ 0x42c8de35, __VMLINUX_SYMBOL_STR(ioremap_nocache) },
-	{ 0xf0fdf6cb, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
 	{ 0xe914e41e, __VMLINUX_SYMBOL_STR(strcpy) },
 	{ 0x8f64aa4, __VMLINUX_SYMBOL_STR(_raw_spin_unlock_irqrestore) },
 	{ 0x9327f5ce, __VMLINUX_SYMBOL_STR(_raw_spin_lock_irqsave) },
-	{ 0x71de9b3f, __VMLINUX_SYMBOL_STR(_copy_to_user) },
+	{ 0xf0fdf6cb, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
 	{ 0x77e2f33, __VMLINUX_SYMBOL_STR(_copy_from_user) },
 	{ 0xb8c7ff88, __VMLINUX_SYMBOL_STR(current_task) },
 	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
@@ -44,6 +44,7 @@ __attribute__((section("__versions"))) = {
 	{ 0x93fca811, __VMLINUX_SYMBOL_STR(__get_free_pages) },
 	{ 0x999e8297, __VMLINUX_SYMBOL_STR(vfree) },
 	{ 0xd6ee688f, __VMLINUX_SYMBOL_STR(vmalloc) },
+	{ 0x71de9b3f, __VMLINUX_SYMBOL_STR(_copy_to_user) },
 	{ 0x91715312, __VMLINUX_SYMBOL_STR(sprintf) },
 	{ 0xe84cb310, __VMLINUX_SYMBOL_STR(remap_pfn_range) },
 	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
@@ -56,5 +57,5 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "548415EDFCDEDA0C95B5D05");
-MODULE_INFO(rhelversion, "7.2");
+MODULE_INFO(srcversion, "B490FCC73939D81AAD7BB73");
+MODULE_INFO(rhelversion, "7.3");

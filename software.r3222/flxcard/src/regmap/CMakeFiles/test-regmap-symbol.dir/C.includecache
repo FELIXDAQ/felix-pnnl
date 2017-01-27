@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/echurch/felix/software.r3222/regmap/./regmap/regmap-common.h
-
 /home/echurch/felix/software.r3222/regmap/./regmap/regmap-symbol.h
 sys/types.h
 -
-regmap/regmap-common.h
-/home/echurch/felix/software.r3222/regmap/./regmap/regmap/regmap-common.h
+/home/echurch/felix/software.r3222/regmap/regmap/regmap-common.h
+-
+
+/home/echurch/felix/software.r3222/regmap/regmap/regmap-common.h
 
 /home/echurch/felix/software.r3222/regmap/test/test-regmap-symbol.c
 stdio.h

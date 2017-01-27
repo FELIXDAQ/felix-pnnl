@@ -94,8 +94,8 @@ clean: CMakeFiles/FlxCard.dir/clean
 # Target rules for target CMakeFiles/FlxCard_scope.dir
 
 # All Build rule for target.
-CMakeFiles/FlxCard_scope.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/FlxCard_scope.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/FlxCard_scope.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/FlxCard_scope.dir/build.make CMakeFiles/FlxCard_scope.dir/depend
 	$(MAKE) -f CMakeFiles/FlxCard_scope.dir/build.make CMakeFiles/FlxCard_scope.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  3
@@ -130,8 +130,8 @@ clean: CMakeFiles/FlxCard_scope.dir/clean
 # Target rules for target CMakeFiles/flx-config.dir
 
 # All Build rule for target.
-CMakeFiles/flx-config.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-config.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-config.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-config.dir/build.make CMakeFiles/flx-config.dir/depend
 	$(MAKE) -f CMakeFiles/flx-config.dir/build.make CMakeFiles/flx-config.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  4
@@ -166,8 +166,8 @@ clean: CMakeFiles/flx-config.dir/clean
 # Target rules for target CMakeFiles/flx-dma-stat.dir
 
 # All Build rule for target.
-CMakeFiles/flx-dma-stat.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-dma-stat.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-dma-stat.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-dma-stat.dir/build.make CMakeFiles/flx-dma-stat.dir/depend
 	$(MAKE) -f CMakeFiles/flx-dma-stat.dir/build.make CMakeFiles/flx-dma-stat.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  5
@@ -202,8 +202,8 @@ clean: CMakeFiles/flx-dma-stat.dir/clean
 # Target rules for target CMakeFiles/flx-dma-test.dir
 
 # All Build rule for target.
-CMakeFiles/flx-dma-test.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-dma-test.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-dma-test.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-dma-test.dir/build.make CMakeFiles/flx-dma-test.dir/depend
 	$(MAKE) -f CMakeFiles/flx-dma-test.dir/build.make CMakeFiles/flx-dma-test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  6
@@ -238,8 +238,8 @@ clean: CMakeFiles/flx-dma-test.dir/clean
 # Target rules for target CMakeFiles/flx-dump-blocks.dir
 
 # All Build rule for target.
-CMakeFiles/flx-dump-blocks.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-dump-blocks.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-dump-blocks.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-dump-blocks.dir/build.make CMakeFiles/flx-dump-blocks.dir/depend
 	$(MAKE) -f CMakeFiles/flx-dump-blocks.dir/build.make CMakeFiles/flx-dump-blocks.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  7
@@ -274,8 +274,8 @@ clean: CMakeFiles/flx-dump-blocks.dir/clean
 # Target rules for target CMakeFiles/flx-eeprom.dir
 
 # All Build rule for target.
-CMakeFiles/flx-eeprom.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-eeprom.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-eeprom.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-eeprom.dir/build.make CMakeFiles/flx-eeprom.dir/depend
 	$(MAKE) -f CMakeFiles/flx-eeprom.dir/build.make CMakeFiles/flx-eeprom.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  8
@@ -310,8 +310,8 @@ clean: CMakeFiles/flx-eeprom.dir/clean
 # Target rules for target CMakeFiles/flx-i2c.dir
 
 # All Build rule for target.
-CMakeFiles/flx-i2c.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-i2c.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-i2c.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-i2c.dir/build.make CMakeFiles/flx-i2c.dir/depend
 	$(MAKE) -f CMakeFiles/flx-i2c.dir/build.make CMakeFiles/flx-i2c.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  9
@@ -346,8 +346,8 @@ clean: CMakeFiles/flx-i2c.dir/clean
 # Target rules for target CMakeFiles/flx-info.dir
 
 # All Build rule for target.
-CMakeFiles/flx-info.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-info.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-info.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-info.dir/build.make CMakeFiles/flx-info.dir/depend
 	$(MAKE) -f CMakeFiles/flx-info.dir/build.make CMakeFiles/flx-info.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  10
@@ -382,8 +382,8 @@ clean: CMakeFiles/flx-info.dir/clean
 # Target rules for target CMakeFiles/flx-init.dir
 
 # All Build rule for target.
-CMakeFiles/flx-init.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-init.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-init.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-init.dir/build.make CMakeFiles/flx-init.dir/depend
 	$(MAKE) -f CMakeFiles/flx-init.dir/build.make CMakeFiles/flx-init.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  11
@@ -418,8 +418,8 @@ clean: CMakeFiles/flx-init.dir/clean
 # Target rules for target CMakeFiles/flx-irq-test.dir
 
 # All Build rule for target.
-CMakeFiles/flx-irq-test.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-irq-test.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-irq-test.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-irq-test.dir/build.make CMakeFiles/flx-irq-test.dir/depend
 	$(MAKE) -f CMakeFiles/flx-irq-test.dir/build.make CMakeFiles/flx-irq-test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  12
@@ -454,8 +454,8 @@ clean: CMakeFiles/flx-irq-test.dir/clean
 # Target rules for target CMakeFiles/flx-reset.dir
 
 # All Build rule for target.
-CMakeFiles/flx-reset.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-reset.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-reset.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-reset.dir/build.make CMakeFiles/flx-reset.dir/depend
 	$(MAKE) -f CMakeFiles/flx-reset.dir/build.make CMakeFiles/flx-reset.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  13
@@ -490,8 +490,8 @@ clean: CMakeFiles/flx-reset.dir/clean
 # Target rules for target CMakeFiles/flx-spi.dir
 
 # All Build rule for target.
-CMakeFiles/flx-spi.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-spi.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-spi.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-spi.dir/build.make CMakeFiles/flx-spi.dir/depend
 	$(MAKE) -f CMakeFiles/flx-spi.dir/build.make CMakeFiles/flx-spi.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  14
@@ -526,8 +526,8 @@ clean: CMakeFiles/flx-spi.dir/clean
 # Target rules for target CMakeFiles/flx-throughput.dir
 
 # All Build rule for target.
-CMakeFiles/flx-throughput.dir/all: CMakeFiles/FlxCard.dir/all
 CMakeFiles/flx-throughput.dir/all: regmap/CMakeFiles/regmap.dir/all
+CMakeFiles/flx-throughput.dir/all: CMakeFiles/FlxCard.dir/all
 	$(MAKE) -f CMakeFiles/flx-throughput.dir/build.make CMakeFiles/flx-throughput.dir/depend
 	$(MAKE) -f CMakeFiles/flx-throughput.dir/build.make CMakeFiles/flx-throughput.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  15
@@ -563,12 +563,14 @@ clean: CMakeFiles/flx-throughput.dir/clean
 
 # Convenience name for "all" pass in the directory.
 regmap/all: regmap/CMakeFiles/regmap.dir/all
+regmap/all: regmap/CMakeFiles/regmap2.dir/all
 regmap/all: regmap/CMakeFiles/test-regmap-struct.dir/all
 regmap/all: regmap/CMakeFiles/test-regmap-symbol.dir/all
 .PHONY : regmap/all
 
 # Convenience name for "clean" pass in the directory.
 regmap/clean: regmap/CMakeFiles/regmap.dir/clean
+regmap/clean: regmap/CMakeFiles/regmap2.dir/clean
 regmap/clean: regmap/CMakeFiles/test-regmap-struct.dir/clean
 regmap/clean: regmap/CMakeFiles/test-regmap-symbol.dir/clean
 .PHONY : regmap/clean
@@ -613,13 +615,48 @@ clean: regmap/CMakeFiles/regmap.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target regmap/CMakeFiles/regmap2.dir
+
+# All Build rule for target.
+regmap/CMakeFiles/regmap2.dir/all:
+	$(MAKE) -f regmap/CMakeFiles/regmap2.dir/build.make regmap/CMakeFiles/regmap2.dir/depend
+	$(MAKE) -f regmap/CMakeFiles/regmap2.dir/build.make regmap/CMakeFiles/regmap2.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  17
+	@echo "Built target regmap2"
+.PHONY : regmap/CMakeFiles/regmap2.dir/all
+
+# Include target in all.
+all: regmap/CMakeFiles/regmap2.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+regmap/CMakeFiles/regmap2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 regmap/CMakeFiles/regmap2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles 0
+.PHONY : regmap/CMakeFiles/regmap2.dir/rule
+
+# Convenience name for target.
+regmap2: regmap/CMakeFiles/regmap2.dir/rule
+.PHONY : regmap2
+
+# clean rule for target.
+regmap/CMakeFiles/regmap2.dir/clean:
+	$(MAKE) -f regmap/CMakeFiles/regmap2.dir/build.make regmap/CMakeFiles/regmap2.dir/clean
+.PHONY : regmap/CMakeFiles/regmap2.dir/clean
+
+# clean rule for target.
+clean: regmap/CMakeFiles/regmap2.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target regmap/CMakeFiles/test-regmap-struct.dir
 
 # All Build rule for target.
 regmap/CMakeFiles/test-regmap-struct.dir/all: regmap/CMakeFiles/regmap.dir/all
 	$(MAKE) -f regmap/CMakeFiles/test-regmap-struct.dir/build.make regmap/CMakeFiles/test-regmap-struct.dir/depend
 	$(MAKE) -f regmap/CMakeFiles/test-regmap-struct.dir/build.make regmap/CMakeFiles/test-regmap-struct.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  17
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  18
 	@echo "Built target test-regmap-struct"
 .PHONY : regmap/CMakeFiles/test-regmap-struct.dir/all
 
@@ -654,7 +691,7 @@ clean: regmap/CMakeFiles/test-regmap-struct.dir/clean
 regmap/CMakeFiles/test-regmap-symbol.dir/all: regmap/CMakeFiles/regmap.dir/all
 	$(MAKE) -f regmap/CMakeFiles/test-regmap-symbol.dir/build.make regmap/CMakeFiles/test-regmap-symbol.dir/depend
 	$(MAKE) -f regmap/CMakeFiles/test-regmap-symbol.dir/build.make regmap/CMakeFiles/test-regmap-symbol.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  18
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles  19
 	@echo "Built target test-regmap-symbol"
 .PHONY : regmap/CMakeFiles/test-regmap-symbol.dir/all
 

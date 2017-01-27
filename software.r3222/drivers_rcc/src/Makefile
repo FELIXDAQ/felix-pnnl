@@ -14,6 +14,8 @@ obj-m   := cmem_rcc.o io_rcc.o flx.o
 KDIR	:= $(KERNEL_SOURCES)
 PWD	:= $(shell pwd)
 default:
+
+	echo "$(KERNEL_SOURCES) " $(KERNEL_SOURCES)
 	$(MAKE) -C $(KDIR) SUBDIRS=$(PWD) RELEASE_NAME="\"$(RELEASE_NAME)\"" CVSTAG="\"$(CVSTAG)\"" FLX_TAG="\"$(FLX_TAG)\"" modules
 	mkdir -p ../drivers 
 	mv cmem_rcc.ko ../drivers/

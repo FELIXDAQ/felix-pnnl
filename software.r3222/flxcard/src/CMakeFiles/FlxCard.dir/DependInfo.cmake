@@ -17,6 +17,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "../flxcard"
   "../../drivers_rcc/flx/include"
+  "../../drivers_rcc/flx"
   "../../regmap"
   "/afs/cern.ch/atlas/project/tdaq/inst/tdaq/tdaq-06-01-01/installed/include"
   "../../drivers/cmem/include"

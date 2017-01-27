@@ -13,5 +13,6 @@
 /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-spi.dir
 /home/echurch/felix/software.r3222/flxcard/src/CMakeFiles/flx-throughput.dir
 /home/echurch/felix/software.r3222/flxcard/src/regmap/CMakeFiles/regmap.dir
+/home/echurch/felix/software.r3222/flxcard/src/regmap/CMakeFiles/regmap2.dir
 /home/echurch/felix/software.r3222/flxcard/src/regmap/CMakeFiles/test-regmap-struct.dir
 /home/echurch/felix/software.r3222/flxcard/src/regmap/CMakeFiles/test-regmap-symbol.dir

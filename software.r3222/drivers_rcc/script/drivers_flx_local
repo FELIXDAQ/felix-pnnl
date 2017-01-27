@@ -16,6 +16,7 @@ case "$1" in
         echo "Starting cmem_rcc driver "
         # load the module
         /sbin/insmod -f $DRIVER_PATH/drivers/cmem_rcc-3.10.0-327.13.1.el7.x86_64.ko $CMEM_PARAMS
+#        /sbin/insmod -f $DRIVER_PATH/drivers/cmem_rcc-3.10.0-514.6.1.el7.x86_64.ko $CMEM_PARAMS
         # remove old device node
         rm -f /dev/cmem_rcc
         # get major number
@@ -30,6 +31,7 @@ case "$1" in
         echo "Starting io_rcc driver "
         # load the module
         /sbin/insmod -f $DRIVER_PATH/drivers/io_rcc-3.10.0-327.13.1.el7.x86_64.ko
+#        /sbin/insmod -f $DRIVER_PATH/drivers/io_rcc-3.10.0-514.6.1.el7.x86_64.ko
         # remove old device node
         rm -f /dev/io_rcc
         # get major number

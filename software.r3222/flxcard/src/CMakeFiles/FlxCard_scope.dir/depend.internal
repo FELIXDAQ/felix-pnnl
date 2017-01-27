@@ -7,10 +7,11 @@ CMakeFiles/FlxCard_scope.dir/FlxCard_scope.cpp.o
  ../../drivers_rcc/ROSGetInput/get_input.h
  ../../drivers_rcc/cmem_rcc/cmem_rcc.h
  ../../drivers_rcc/cmem_rcc/cmem_rcc_common.h
+ ../../drivers_rcc/flx/flx_common.h
  ../../drivers_rcc/rcc_error/rcc_error.h
- ../../regmap/regmap/regmap-common.h
- ../../regmap/regmap/regmap-struct.h
- ../../regmap/regmap/regmap-symbol.h
  ../../regmap/regmap/regmap.h
  /home/echurch/felix/software.r3222/flxcard/src/FlxCard.h
  /home/echurch/felix/software.r3222/flxcard/src/FlxCard_scope.cpp
+ /home/echurch/felix/software.r3222/regmap/regmap/regmap-common.h
+ /home/echurch/felix/software.r3222/regmap/regmap/regmap-struct.h
+ /home/echurch/felix/software.r3222/regmap/regmap/regmap-symbol.h

@@ -6,11 +6,12 @@ CMakeFiles/flx-i2c.dir/flx-i2c.cpp.o
  ../../drivers_rcc/DFDebug/GlobalDebugSettings.h
  ../../drivers_rcc/cmem_rcc/cmem_rcc.h
  ../../drivers_rcc/cmem_rcc/cmem_rcc_common.h
+ ../../drivers_rcc/flx/flx_common.h
  ../../drivers_rcc/rcc_error/rcc_error.h
- ../../regmap/regmap/regmap-common.h
- ../../regmap/regmap/regmap-struct.h
- ../../regmap/regmap/regmap-symbol.h
  ../../regmap/regmap/regmap.h
  /home/echurch/felix/software.r3222/flxcard/src/FlxCard.h
  /home/echurch/felix/software.r3222/flxcard/src/FlxException.h
  /home/echurch/felix/software.r3222/flxcard/src/flx-i2c.cpp
+ /home/echurch/felix/software.r3222/regmap/regmap/regmap-common.h
+ /home/echurch/felix/software.r3222/regmap/regmap/regmap-struct.h
+ /home/echurch/felix/software.r3222/regmap/regmap/regmap-symbol.h

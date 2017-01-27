@@ -61,7 +61,7 @@ typedef struct range_struct
 {
   struct range_struct *next;
   void *base;			// base of allocated block 
-  size_t  size;			// size in bytes 
+  size_t size;			// size in bytes 
 } range_t;
 
 
@@ -72,8 +72,11 @@ static int cmem_rcc_open(struct inode *inode, struct file *file);
 static int cmem_rcc_release(struct inode *inode, struct file *file);
 static long cmem_rcc_ioctl(struct file *file, u_int cmd, u_long arg);
 static int cmem_rcc_mmap(struct file *file, struct vm_area_struct *vma);
-static int cmem_rcc_proc_write(struct file *file, const char *buffer, u_long count, void *data);
-static int cmem_rcc_proc_read(char *buf, char **start, off_t offset, int count, int *eof, void *data);
+// static int cmem_rcc_proc_write(struct file *file, const char *buffer, u_long count, void *data);
+// static int cmem_rcc_proc_read(char *buf, char **start, off_t offset, int count, int *eof, void *data);
+static ssize_t cmem_rcc_proc_write(struct file *file, const char *buffer, size_t count, loff_t *startOffset);
+static ssize_t cmem_rcc_proc_read(struct file *file, char *buf, size_t count, loff_t *startOffset);
+
 
 /*****************************/
 /*Service function prototypes*/

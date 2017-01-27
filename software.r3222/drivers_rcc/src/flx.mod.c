@@ -19,21 +19,11 @@ __used
 __attribute__((section("__versions"))) = {
 	{ 0x28950ef1, __VMLINUX_SYMBOL_STR(module_layout) },
 	{ 0x15692c87, __VMLINUX_SYMBOL_STR(param_ops_int) },
-	{ 0xfcec0987, __VMLINUX_SYMBOL_STR(enable_irq) },
-	{ 0x3ce4ca6f, __VMLINUX_SYMBOL_STR(disable_irq) },
-	{ 0xc2560ac2, __VMLINUX_SYMBOL_STR(pci_read_config_word) },
-	{ 0xfa66f77c, __VMLINUX_SYMBOL_STR(finish_wait) },
-	{ 0x5c8b5ce8, __VMLINUX_SYMBOL_STR(prepare_to_wait) },
-	{ 0x1000e51, __VMLINUX_SYMBOL_STR(schedule) },
-	{ 0xb8c7ff88, __VMLINUX_SYMBOL_STR(current_task) },
-	{ 0xc8b57c27, __VMLINUX_SYMBOL_STR(autoremove_wake_function) },
-	{ 0xc2f7c1b1, __VMLINUX_SYMBOL_STR(pci_read_config_byte) },
-	{ 0x71de9b3f, __VMLINUX_SYMBOL_STR(_copy_to_user) },
 	{ 0x3fa89e8f, __VMLINUX_SYMBOL_STR(cdev_del) },
 	{ 0xa16aae11, __VMLINUX_SYMBOL_STR(remove_proc_entry) },
-	{ 0x7485e15e, __VMLINUX_SYMBOL_STR(unregister_chrdev_region) },
 	{ 0xa202a8e5, __VMLINUX_SYMBOL_STR(kmalloc_order_trace) },
 	{ 0x8c34c149, __VMLINUX_SYMBOL_STR(proc_create_data) },
+	{ 0x7485e15e, __VMLINUX_SYMBOL_STR(unregister_chrdev_region) },
 	{ 0x5f675a65, __VMLINUX_SYMBOL_STR(cdev_add) },
 	{ 0x798d5ca6, __VMLINUX_SYMBOL_STR(cdev_alloc) },
 	{ 0x2cb61da5, __VMLINUX_SYMBOL_STR(pci_unregister_driver) },
@@ -52,9 +42,19 @@ __attribute__((section("__versions"))) = {
 	{ 0xf20dabd8, __VMLINUX_SYMBOL_STR(free_irq) },
 	{ 0x42c8de35, __VMLINUX_SYMBOL_STR(ioremap_nocache) },
 	{ 0x91715312, __VMLINUX_SYMBOL_STR(sprintf) },
+	{ 0xf0fdf6cb, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0xfcec0987, __VMLINUX_SYMBOL_STR(enable_irq) },
+	{ 0x3ce4ca6f, __VMLINUX_SYMBOL_STR(disable_irq) },
 	{ 0x4ed12f73, __VMLINUX_SYMBOL_STR(mutex_unlock) },
 	{ 0x41dae671, __VMLINUX_SYMBOL_STR(mutex_lock_interruptible) },
-	{ 0xf0fdf6cb, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0xfa66f77c, __VMLINUX_SYMBOL_STR(finish_wait) },
+	{ 0x5c8b5ce8, __VMLINUX_SYMBOL_STR(prepare_to_wait) },
+	{ 0x1000e51, __VMLINUX_SYMBOL_STR(schedule) },
+	{ 0xb8c7ff88, __VMLINUX_SYMBOL_STR(current_task) },
+	{ 0xc8b57c27, __VMLINUX_SYMBOL_STR(autoremove_wake_function) },
+	{ 0xc2560ac2, __VMLINUX_SYMBOL_STR(pci_read_config_word) },
+	{ 0x71de9b3f, __VMLINUX_SYMBOL_STR(_copy_to_user) },
+	{ 0xc2f7c1b1, __VMLINUX_SYMBOL_STR(pci_read_config_byte) },
 	{ 0x77e2f33, __VMLINUX_SYMBOL_STR(_copy_from_user) },
 	{ 0xcf21d241, __VMLINUX_SYMBOL_STR(__wake_up) },
 	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
@@ -66,8 +66,6 @@ __used
 __attribute__((section(".modinfo"))) =
 "depends=";
 
-MODULE_ALIAS("pci:v000010EEd00007038sv*sd*bc*sc*i*");
-MODULE_ALIAS("pci:v000010EEd00007039sv*sd*bc*sc*i*");
 
-MODULE_INFO(srcversion, "58E582DAFB11E14AD1500D7");
-MODULE_INFO(rhelversion, "7.2");
+MODULE_INFO(srcversion, "BEEFA935796190EB434B3F0");
+MODULE_INFO(rhelversion, "7.3");

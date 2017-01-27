@@ -24,6 +24,7 @@ __attribute__((section("__versions"))) = {
 	{ 0xa16aae11, __VMLINUX_SYMBOL_STR(remove_proc_entry) },
 	{ 0x5f675a65, __VMLINUX_SYMBOL_STR(cdev_add) },
 	{ 0x798d5ca6, __VMLINUX_SYMBOL_STR(cdev_alloc) },
+	{ 0x8c34c149, __VMLINUX_SYMBOL_STR(proc_create_data) },
 	{ 0xa202a8e5, __VMLINUX_SYMBOL_STR(kmalloc_order_trace) },
 	{ 0x29537c9e, __VMLINUX_SYMBOL_STR(alloc_chrdev_region) },
 	{ 0x41ec4c1a, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
@@ -52,5 +53,5 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "0305E208FEE9B85FA51AA26");
-MODULE_INFO(rhelversion, "7.2");
+MODULE_INFO(srcversion, "E1A7B389FF3FD303BBCFDAD");
+MODULE_INFO(rhelversion, "7.3");

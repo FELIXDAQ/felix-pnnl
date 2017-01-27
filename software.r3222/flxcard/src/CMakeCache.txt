@@ -183,6 +183,9 @@ libregmap_BINARY_DIR:STATIC=/home/echurch/felix/software.r3222/flxcard/src/regma
 libregmap_SOURCE_DIR:STATIC=/home/echurch/felix/software.r3222/regmap
 
 //Dependencies for target
+regmap2_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 regmap_LIB_DEPENDS:STATIC=
 
 

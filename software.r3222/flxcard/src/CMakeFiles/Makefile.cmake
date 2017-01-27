@@ -59,6 +59,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/flx-spi.dir/DependInfo.cmake"
   "CMakeFiles/flx-throughput.dir/DependInfo.cmake"
   "regmap/CMakeFiles/regmap.dir/DependInfo.cmake"
+  "regmap/CMakeFiles/regmap2.dir/DependInfo.cmake"
   "regmap/CMakeFiles/test-regmap-struct.dir/DependInfo.cmake"
   "regmap/CMakeFiles/test-regmap-symbol.dir/DependInfo.cmake"
   )

@@ -40,31 +40,23 @@ sys/ioctl.h
 rcc_error/rcc_error.h
 ../../drivers_rcc/cmem_rcc/rcc_error/rcc_error.h
 
+../../drivers_rcc/flx/flx_common.h
+linux/types.h
+-
+sys/types.h
+-
+
 ../../drivers_rcc/rcc_error/rcc_error.h
 stdio.h
 -
 
-../../regmap/regmap/regmap-common.h
-
-../../regmap/regmap/regmap-struct.h
-sys/types.h
--
-regmap/regmap-common.h
-../../regmap/regmap/regmap/regmap-common.h
-
-../../regmap/regmap/regmap-symbol.h
-sys/types.h
--
-regmap/regmap-common.h
-../../regmap/regmap/regmap/regmap-common.h
-
 ../../regmap/regmap/regmap.h
-regmap/regmap-common.h
-../../regmap/regmap/regmap/regmap-common.h
-regmap/regmap-struct.h
-../../regmap/regmap/regmap/regmap-struct.h
-regmap/regmap-symbol.h
-../../regmap/regmap/regmap/regmap-symbol.h
+/home/echurch/felix/software.r3222/regmap/regmap/regmap-common.h
+-
+/home/echurch/felix/software.r3222/regmap/regmap/regmap-struct.h
+-
+/home/echurch/felix/software.r3222/regmap/regmap/regmap-symbol.h
+-
 
 /home/echurch/felix/software.r3222/flxcard/src/FlxCard.h
 sys/types.h
@@ -105,4 +97,18 @@ FlxCard.h
 /home/echurch/felix/software.r3222/flxcard/src/FlxCard.h
 FlxException.h
 /home/echurch/felix/software.r3222/flxcard/src/FlxException.h
+
+/home/echurch/felix/software.r3222/regmap/regmap/regmap-common.h
+
+/home/echurch/felix/software.r3222/regmap/regmap/regmap-struct.h
+sys/types.h
+-
+/home/echurch/felix/software.r3222/regmap/regmap/regmap-common.h
+-
+
+/home/echurch/felix/software.r3222/regmap/regmap/regmap-symbol.h
+sys/types.h
+-
+/home/echurch/felix/software.r3222/regmap/regmap/regmap-common.h
+-
 

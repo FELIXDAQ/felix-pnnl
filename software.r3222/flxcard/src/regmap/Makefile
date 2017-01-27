@@ -177,6 +177,20 @@ regmap/fast:
 .PHONY : regmap/fast
 
 # Convenience name for target.
+regmap/CMakeFiles/regmap2.dir/rule:
+	cd /home/echurch/felix/software.r3222/flxcard/src && $(MAKE) -f CMakeFiles/Makefile2 regmap/CMakeFiles/regmap2.dir/rule
+.PHONY : regmap/CMakeFiles/regmap2.dir/rule
+
+# Convenience name for target.
+regmap2: regmap/CMakeFiles/regmap2.dir/rule
+.PHONY : regmap2
+
+# fast build rule for target.
+regmap2/fast:
+	cd /home/echurch/felix/software.r3222/flxcard/src && $(MAKE) -f regmap/CMakeFiles/regmap2.dir/build.make regmap/CMakeFiles/regmap2.dir/build
+.PHONY : regmap2/fast
+
+# Convenience name for target.
 regmap/CMakeFiles/test-regmap-struct.dir/rule:
 	cd /home/echurch/felix/software.r3222/flxcard/src && $(MAKE) -f CMakeFiles/Makefile2 regmap/CMakeFiles/test-regmap-struct.dir/rule
 .PHONY : regmap/CMakeFiles/test-regmap-struct.dir/rule
@@ -210,6 +224,7 @@ src/regmap-symbol.o: src/regmap-symbol.c.o
 # target to build an object file
 src/regmap-symbol.c.o:
 	cd /home/echurch/felix/software.r3222/flxcard/src && $(MAKE) -f regmap/CMakeFiles/regmap.dir/build.make regmap/CMakeFiles/regmap.dir/src/regmap-symbol.c.o
+	cd /home/echurch/felix/software.r3222/flxcard/src && $(MAKE) -f regmap/CMakeFiles/regmap2.dir/build.make regmap/CMakeFiles/regmap2.dir/src/regmap-symbol.c.o
 .PHONY : src/regmap-symbol.c.o
 
 src/regmap-symbol.i: src/regmap-symbol.c.i
@@ -218,6 +233,7 @@ src/regmap-symbol.i: src/regmap-symbol.c.i
 # target to preprocess a source file
 src/regmap-symbol.c.i:
 	cd /home/echurch/felix/software.r3222/flxcard/src && $(MAKE) -f regmap/CMakeFiles/regmap.dir/build.make regmap/CMakeFiles/regmap.dir/src/regmap-symbol.c.i
+	cd /home/echurch/felix/software.r3222/flxcard/src && $(MAKE) -f regmap/CMakeFiles/regmap2.dir/build.make regmap/CMakeFiles/regmap2.dir/src/regmap-symbol.c.i
 .PHONY : src/regmap-symbol.c.i
 
 src/regmap-symbol.s: src/regmap-symbol.c.s
@@ -226,6 +242,7 @@ src/regmap-symbol.s: src/regmap-symbol.c.s
 # target to generate assembly for a file
 src/regmap-symbol.c.s:
 	cd /home/echurch/felix/software.r3222/flxcard/src && $(MAKE) -f regmap/CMakeFiles/regmap.dir/build.make regmap/CMakeFiles/regmap.dir/src/regmap-symbol.c.s
+	cd /home/echurch/felix/software.r3222/flxcard/src && $(MAKE) -f regmap/CMakeFiles/regmap2.dir/build.make regmap/CMakeFiles/regmap2.dir/src/regmap-symbol.c.s
 .PHONY : src/regmap-symbol.c.s
 
 test/test-regmap-struct.o: test/test-regmap-struct.c.o
@@ -291,6 +308,7 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... regmap"
+	@echo "... regmap2"
 	@echo "... test-regmap-struct"
 	@echo "... test-regmap-symbol"
 	@echo "... src/regmap-symbol.o"

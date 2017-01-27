@@ -358,6 +358,19 @@ regmap/fast:
 .PHONY : regmap/fast
 
 #=============================================================================
+# Target rules for targets named regmap2
+
+# Build rule for target.
+regmap2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 regmap2
+.PHONY : regmap2
+
+# fast build rule for target.
+regmap2/fast:
+	$(MAKE) -f regmap/CMakeFiles/regmap2.dir/build.make regmap/CMakeFiles/regmap2.dir/build
+.PHONY : regmap2/fast
+
+#=============================================================================
 # Target rules for targets named test-regmap-struct
 
 # Build rule for target.
@@ -772,6 +785,7 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... regmap"
+	@echo "... regmap2"
 	@echo "... test-regmap-struct"
 	@echo "... test-regmap-symbol"
 	@echo "... FlxCard.o"

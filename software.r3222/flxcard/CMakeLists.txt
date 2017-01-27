@@ -18,7 +18,7 @@ add_subdirectory(../regmap ${CMAKE_CURRENT_BINARY_DIR}/regmap)
 ###include_directories(/afs/cern.ch/user/j/joos/DAQ/DataFlow/ROSRCDdrivers/FELIX_bundle/FELIX_bundle/include)
 ###link_directories(/afs/cern.ch/user/j/joos/DAQ/DataFlow/ROSRCDdrivers/FELIX_bundle/FELIX_bundle/lib)
 
-include_directories(flxcard "../drivers_rcc/flx/include/" "../regmap" "/afs/cern.ch/atlas/project/tdaq/inst/tdaq/tdaq-06-01-01/installed/include/" "../drivers/cmem/include/" "../drivers_rcc/" "../drivers_rcc/cmem_rcc/") # 2nd to last one needed for DFDebug.h, last one for CMEM_* declarations.
+include_directories(flxcard "../drivers_rcc/flx/include/" "../drivers_rcc/flx" "../regmap" "/afs/cern.ch/atlas/project/tdaq/inst/tdaq/tdaq-06-01-01/installed/include/" "../drivers/cmem/include/" "../drivers_rcc/" "../drivers_rcc/cmem_rcc/") # 2nd to last one needed for DFDebug.h, last one for CMEM_* declarations.
 link_directories(/afs/cern.ch/atlas/project/tdaq/inst/tdaq/tdaq-06-01-01/installed/x86_64-slc6-gcc49-opt/lib ../drivers_rcc/lib64) ## last one for DFDebug.so
 
 set (CMAKE_CXX_FLAGS "-DDEBUG_LEVEL=1 --pedantic -Wall")

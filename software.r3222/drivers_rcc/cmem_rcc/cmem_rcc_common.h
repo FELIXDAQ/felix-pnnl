@@ -25,7 +25,7 @@
 #else
   #include <sys/types.h>
   #include <sys/ioctl.h>
-  #include "/home/echurch/felix/software.r3222/drivers_rcc/rcc_error/rcc_error.h"
+  #include "rcc_error/rcc_error.h"
 #endif
 
 

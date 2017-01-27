@@ -40,6 +40,12 @@ sys/ioctl.h
 /home/echurch/felix/software.r3222/drivers_rcc/rcc_error/rcc_error.h
 -
 
+../../drivers_rcc/flx/flx_common.h
+linux/types.h
+-
+sys/types.h
+-
+
 ../../regmap/regmap/regmap.h
 /home/echurch/felix/software.r3222/regmap/regmap/regmap-common.h
 -
